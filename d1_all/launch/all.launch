@@ -1,0 +1,14 @@
+<launch>
+    <!-- My Package launch file -->
+    <node pkg="d1_all" type="main.py" name="d1_all"  output="screen">
+    </node>
+
+    <node pkg="d1watchdog" type="main.py" name="d1watchdog"  output="screen">
+    </node>
+
+    <node pkg="d1keyboard_input" type="main.py" name="d1keyboard_input"  output="screen">
+    </node>
+
+    <node pkg="d1move_robot" type="main.py" name="d1move_robot"  output="screen">
+    </node>
+</launch>

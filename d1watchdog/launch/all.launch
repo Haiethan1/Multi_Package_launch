@@ -1,0 +1,6 @@
+<launch>
+    <!-- My Package launch file -->
+    <node pkg="d1watchdog" type="main.py" name="d1watchdog"  output="screen">
+    </node>
+
+</launch>
